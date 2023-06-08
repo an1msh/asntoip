@@ -1,6 +1,6 @@
 # ASN CIDR Extractor
 
-Had an idea and asked chatGPT(4) to execute it :man_shrugging:
+Had an idea and asked chatGPT(4) to execute it using ipinfo :man_shrugging:
 
 This script allows you to extract unique CIDRs associated with given ASNs.
 
