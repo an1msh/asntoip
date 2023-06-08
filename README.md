@@ -9,8 +9,7 @@ This script allows you to extract unique CIDRs associated with given ASNs.
 Run the script with one of the following flags:
 
 - `-a` followed by an ASN number or a comma-separated list of ASN numbers. E.g. `python3 updated-asn.py -a 12345,67890`
-- `-f` followed by a path to a file containing a list of ASN numbers. 
-E.g. `python3 updated-asn.py -f asns.txt`
+- `-f` followed by a path to a file containing a list of ASN numbers. E.g. `python3 updated-asn.py -f asns.txt`
 - `-o` followed by a path to the output file to write the CIDRs. If not provided, CIDRs will be printed to the console. E.g. `python3 updated-asn.py -a 12345 -o output.txt`
 
 Note that you must provide either `-a` or `-f` argument. 
